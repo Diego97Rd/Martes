@@ -1,0 +1,38 @@
+<!--
+<app-loading *ngIf="loading"></app-loading>
+-->
+
+<body >
+
+<section class="showcase" >
+  <header>
+      <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <video src="assets/video4.mp4" muted loop autoplay></video>
+  <div class="overlay"></div>
+  <div class="text">
+    <h2>PACIFIC</h2>
+    <h3>ADVENTURES</h3>
+    <p>Somos una Agencia de viajes que brinde los mejores servicios
+      turísticos superando las expectativas de nuestros pasajeros
+      dando a conocer las riquezas de nuestro Perú y destinos exóticos
+      internacionales..</p>
+    <a *ngIf="!isLogged" routerLink="/login">
+      Explorar
+    </a>
+    <a *ngIf="isLogged" (click)="onLogOut()">
+      Explorar
+    </a>  </div>
+  <ul class="social">
+    <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+    <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+    <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+  </ul>
+</section>
+<script src="main.js"></script>
+</body>

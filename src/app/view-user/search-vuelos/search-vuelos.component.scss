@@ -1,0 +1,168 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+mat-drawer-container {
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2016/07/30/00/03/winding-road-1556177_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+mat-drawer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.filter-form {
+  margin-bottom: 20px;
+}
+
+.container{
+  margin: 100px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mat-paginator {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mat-paginator-page-size,
+.mat-paginator-range-label {
+  color: #333333;
+  font-weight: bold;
+}
+
+.mat-paginator-navigation button {
+  background-color: #007bff;
+  color: #ac1a1a;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.mat-paginator-navigation button:hover {
+  background-color: #0056b3;
+}
+
+.mat-paginator-navigation button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.mat-form-field {
+  margin-right: 10px;
+}
+
+button.mat-raised-button {
+  /* Estilos de fuente y color */
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(110, 45, 45);
+}
+
+/* Estilos para el botón de filtrar */
+button.mat-raised-button[color="primary"] {
+  background-color: #ff4500;
+}
+
+/* Estilos para el botón de limpiar */
+button.mat-raised-button[color="primary"]:last-child {
+  background-color: #2e8b57;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Añadir esta línea para centrar el elemento */
+}
+button.mat-raised-button {
+  margin-right: 10px;
+}
+
+.filter-form mat-form-field {
+  margin-right: 20px;
+  width: 150px;
+}
+
+.filter-form button {
+  margin-left: 10px;
+}
+
+
+.image-cell {
+  width: 100px;
+}
+
+.flight-image {
+  max-width: 100%; 
+  max-height: 100px; 
+  object-fit: contain; 
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flight-card {
+  margin: 10px;
+  width: 300px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 10px; 
+  padding: 5px; 
+}
+
+.flight-image {
+  max-width: 100%; 
+  max-height: 100%; 
+  border-radius: 8px; 
+}
+
+.flight-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.flight-info {
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+

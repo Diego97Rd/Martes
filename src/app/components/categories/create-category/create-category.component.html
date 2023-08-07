@@ -1,0 +1,36 @@
+
+
+
+<h2>Crear nueva categoría</h2>
+<mat-form-field>
+  <input matInput [(ngModel)]="name" placeholder="Nombre de la categoría">
+</mat-form-field>
+<div class="dialog-buttons" >
+  <button mat-button (click)="cancel()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="create()" >Guardar</button>
+</div>
+
+
+
+
+
+
+<!--<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-4 mx-auto">
+      <form (ngSubmit)="onCreateCategory()" novalidate #f="ngForm">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" name="nombre"
+                 [(ngModel)]="name" required>
+        </div>
+        <button class="btn btn-outline-success btn-block" [disabled]="!f.valid">
+          <i class="fas fa-plus-circle"></i> Crear
+        </button>
+        <button class="btn btn-outline-primary btn-block" routerLink="/lista">
+          <i class="fas fa-arrow-alt-circle-left"></i> Volver
+        </button>
+      </form>
+    </div>
+  </div>
+</div>-->
